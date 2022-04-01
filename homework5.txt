@@ -1,3 +1,7 @@
 0. What is your name and student ID?
+ My name is yun cheol Shin. My student ID is 2021-17895
 1. What is .gitignore? You can write the answer either in Korean or English.
+ 특정 버전을 관리하짐 말아야 할 필요가 생겼을때 사용하는 코드이다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+SSH란 인터넷이나 네트워크를 통해 연결되어있는 컴퓨터에 안전하게 연결해주는 프로토콜로, 공개 키 -개인키 쌍을 통해 암호화된 통신을 진행합니다.
+로컬 개발 환경에서 Git을 단독으로 사용한다면 SSH가 없어도 무방하지만 안전하게 외부 Git 서버에서 코드를 Clone하거나 Push하려면 SSH 프로토콜을 사용한다.
