@@ -1,6 +1,6 @@
 0. What is your name and student ID?
 name: 권태희(Kwon Taehee)
-student ID: 2021-11212
+student ID: 2021-11212 
 
 1. What is .gitignore? You can write the answer either in Korean or English.
 
