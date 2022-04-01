@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+JunyongPark, 2018-15167
 1. What is .gitignore? You can write the answer either in Korean or English.
+협업 개발 시에 소스코드 뿐 아니라 다른 로그파일이나 컴파일 파일 등 다양한 파일들이 생기는데, 팀원들마다 사용하는 파일들이 다를 수 있어서 충돌이 생길 수 있다. 이를 막기 위해 .gitignore로 git에서 관리하지 않는 파일들을 설정해 준다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+To make sure that only authorized users will be allowed to push to our repository. SSH key is unique to each PC, so users can be identified by SSH key, and acknowledged as a owner of the hub who can push updates to the repository.
