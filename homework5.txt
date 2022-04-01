@@ -1,3 +1,13 @@
 0. What is your name and student ID?
+name: 권태희(Kwon Taehee)
+student ID: 2021-11212 
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+
+.gitignore 파일은 사용자가 working directory에서 작업을 할 때, 수정하거나 변경하더라도 commit 대상에서 제외되는 파일을 말한다. 
+즉, 이 파일들은 Git의 버전 관리에서 제외되게 된다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+
+SSH는 통신 프로토콜의 일종으로, 클라이언트와 호스트 사이의 통신이 암호화되어있다는 특징을 갖는다. 
+호스트는 remote server, 그리고 클라이언트는 이에 접속하고자 하는 컴퓨터이며, Github에서는 SSH key 사용을 통해, 확인된 사용자만이 개인의 repository에 push를 진행할 수 있도록 할 수 있다.
