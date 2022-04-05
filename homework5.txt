@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+신민철, 2021-16132
 1. What is .gitignore? You can write the answer either in Korean or English.
+원하지 않는 파일들을 자동으로 git 커밋 대상에서 제외하기 위해서 쓰인다. Git에서 관리할때 해당되는 파일은 제외하고 관리한다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+Github은 원격으로 다양한 사람들이 접속하는 공간이므로 보안이 중요하다. SSH key를 등록함으로써 서로 통신을 할때 보안적으로 안전하게 통신할 수 있게 한다. 
