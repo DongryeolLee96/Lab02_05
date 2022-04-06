@@ -1,3 +1,6 @@
-0. What is your name and student ID?
+0. What is your name and student ID? 
+	정서본 , 2021-17177
 1. What is .gitignore? You can write the answer either in Korean or English.
+	git add . 으로 모든 modification을 stage 할 수 있다. 이때 제외하고 싶은 파일(보안, 프로젝트와 무관, 대용량)이 있을 수 있다. 이때 .gitignore안에 제외하고픈 파일명,특정경로, 특정확장자 들을 집어 넣으면 git add . 을 쓰더라도 .gitignore에 명시된 파일들은 stage되지 않는다. 
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+	ssh key는 github username과 pw의 대안이다. ssh ke\y는 public key와 private key로 이루어져 있으며 private key는 컴퓨터에 저장된다
