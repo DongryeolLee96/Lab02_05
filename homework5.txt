@@ -1,3 +1,12 @@
 0. What is your name and student ID?
+Name: 박성민 (Sungmin Park)
+Student ID: 2021-19761
+
 1. What is .gitignore? You can write the answer either in Korean or English.
+gitignore 파일이란, git 사용 과정에서 사용자가 원치 않는 파일들을 자동적으로 commit 대상에서 제외시켜주는 파일이다.
+예를 들어 IDE tool과 관련된 파일이나, 로그, 패키지 관련 파일과 같은 파일들은 커밋에서 제외시켜주는 것이 보안적으로 좋다. 그 외에도 프로젝트 전반에서 사용자가 원치 않는 파일들을 자동으로 제외시켜줄 수 있다.
+
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+SSH 프로토콜을 이용해서 remote server에 사용자 본인의 컴퓨터를 연결하고, 인증을 진행할 수 있다.
+한편, SSH protocol은 쌍으로 존재하는데, GitHub와 공유되는 public key와 사용자의 PC에만 저장되는 private key가 존재한다. 두개가 동일할 경우, access가 허락된다. 이러한 이유로, SSH key는 보안을 위해서 반드시 필요한 절차이다.
+SSH protocol 덕분에, GitHub에 접속할때마다 사용자이름과 personal access token을 제공하지 않아도 편리하게 연결이 가능하다.
