@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+- 최민규, 2020-16686.
 1. What is .gitignore? You can write the answer either in Korean or English.
+- remote repository에 갱신되지 않아야 하는 파일을 관리하는 용도의 파일로, git이 track하지 않을 파일을 정의한다.
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+- 어떤 프로젝트에 기여할 때, 무차별적인 접근을 방지하기 위해 허용된 사용자만을 접근할 수 있도록 하는 보안 요소가 필요하다. 이때 매번 메일/아이디, 비밀번호를 치는 것 대신 자동으로 서버에 접속할 수 있도록 인증해주는 것이 SSH key이다. SSH key는 private key, public key로 구성되어 있고, private key가 local machine, public key가 remote machine에 각각 위치해 접근 시도가 이루어질 때 client에서 두 key의 일치 여부를 확인한다.
