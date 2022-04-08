@@ -1,3 +1,6 @@
 0. What is your name and student ID?
+My name is ChoiSeongheon. My student ID is 2021-12970. 
 1. What is .gitignore? You can write the answer either in Korean or English.
+단어 그대로 Github 저장소에 commit하게 될 때 무시할 파일을 Git에 알려주는 명령어이다. 
 2. Why do Github users need an SSH key pair? (Users can use either SSH key pair or github account info.) Please write down a brief explanation of SSH key
+SSH key란 일종의 사용자들을 판별하는 key이다. 또한 Git과 Github를 연동하는 열쇠이기도 하다. 매번 user.name과 user.email 등등을 치기 번거롭기도 하고 그러므로 이 SSH key를 사용한다.
